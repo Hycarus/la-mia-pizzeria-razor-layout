@@ -6,9 +6,9 @@ namespace la_mia_pizzeria_static.Models
 		public string Name { get; set; }
 		public string Overview { get; set; }
 		public string Image { get; set; }
-		public double Price { get; set; }
+		public decimal Price { get; set; }
 
-		public Pizza(string name, string overview, string image, double price)
+		public Pizza(string name, string overview, string image, decimal price)
 		{
 			this.Name = name;
 			this.Overview = overview;
