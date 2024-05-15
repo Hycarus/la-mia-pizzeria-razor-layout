@@ -14,9 +14,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.29" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Views\Pages\" />
+    <None Remove="Views\Menu\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Pages\" />
+    <Folder Include="Views\Menu\" />
   </ItemGroup>
 </Project>
